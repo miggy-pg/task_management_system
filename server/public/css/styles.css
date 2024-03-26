@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 400px;
+  height: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-info {
+  margin-bottom: 20px;
+}
+
+.task-info img {
+  width: 50px;
+  height: 50px;
+}
+
+.task-info label {
+  font-weight: bold;
+}
+
+.task-info p {
+  margin: 5px 0;
+}
+
+.task-info .status {
+  color: #007bff;
+}
+
+.task-info .priority {
+  color: #dc3545;
+}
+
+.task-info .team {
+  color: #28a745;
+}
+
+.task-info .project {
+  color: #17a2b8;
+}
+
+.task-info .assignee {
+  color: #ffc107;
+}
+
+.task-description {
+  margin-bottom: 20px;
+}
+
+.task-description label {
+  font-weight: bold;
+}
+
+.task-description p {
+  margin: 5px 0;
+}
